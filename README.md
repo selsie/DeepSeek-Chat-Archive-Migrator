@@ -9,7 +9,7 @@
 A lightweight, zero-dependency Python toolkit to migrate exported **DeepSeek** chat histories (`chat_sessions/*.json`) into **Google Gemini** (via the ChatGPT-compatible `conversations.json` import format) or organize them as clean, human-readable individual JSON files.
 
 ## Why this exists
-When exporting data from DeepSeek, chats are stored as cryptic UUID-named JSON files with local relative paths to uploaded images/attachments. Standard importers either drop local attachments or lose the conversational tone/persona when continuing a chat in another LLM.
+When exporting data from DeepSeek, chats are stored as cryptic UUID-named JSON files with local relative paths to uploaded images/attachments. Since Gemini's native importer only accepts ChatGPT-formatted `conversations.json` files—and simple text converters drop local attachments, conversation branching, and the conversational tone/persona—this toolkit bridges the gap in one go:
 
 This toolkit solves five problems in one go:
 1. **Tree-accurate message reconstruction:** Traverses DeepSeek's `parent_id` message graph in exact chronological order.
