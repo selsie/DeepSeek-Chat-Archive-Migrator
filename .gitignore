@@ -1,0 +1,14 @@
+# DeepSeek raw export data
+chat_sessions/
+user_setting.json
+
+# Generated migration outputs
+htdocs_upload/
+single_chats_named/
+*.zip
+
+# Python cache & OS files
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
