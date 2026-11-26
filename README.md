@@ -1,8 +1,10 @@
-<p align="center">
-  <img src="logo.png" alt="DeepSeek-Chat Archive Migrator Logo" width="260">
-</p>
-
-# DeepSeek Chat Archive Migrator (with Image Hosting & Persona Continuity)
+<div align="center">
+<img src="logo.png" alt="DeepSeek-Chat Archive Migrator Logo" width="260">
+<h1>
+    DeepSeek Chat Archive Migrator<br>
+    <sub>(with Image Hosting & Persona Continuity)</sub>
+  </h1>
+</div>
 
 A lightweight, zero-dependency Python toolkit to migrate exported **DeepSeek** chat histories (`chat_sessions/*.json`) into **Google Gemini** (via the ChatGPT-compatible `conversations.json` import format) or organize them as clean, human-readable individual JSON files.
 
