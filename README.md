@@ -59,4 +59,4 @@ If you prefer individual files rather than a single merged archive (for local ba
 * Python 3.9+ (uses standard library modules only: `json`, `pathlib`, `re`, `shutil`, `zipfile`, `urllib.parse`, `datetime`, `random`).
 
 ## Note
-* The scripts and readme were co-authored with Gemini and inspired by the feeling of loss by the recent restrictions imposed on the conversations with DeepSeek
+* The scripts and README were co-authored with Gemini and inspired by the feeling of loss caused by the recent restrictions on DeepSeek.
